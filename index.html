@@ -6,9 +6,18 @@
       love
     </title>
   </head>
+<script type="text/javascript">
+  function btnOnclick(){
+    var name=document.getElementById("name");
+    var pwd=document.getElementById("pwd");
+    window.alert(name+"的密码是:"+pwd);
+  }
+  
+  
+</script>
 <body>
- 账号:<input type="text" name="name"/></br>
-密码:<input type="password" name="pwd"/></br>
-&nbsp;&nbsp;&nbsp;&nbsp;<input type="button" value="提交" id="btn"/></br>
+ 账号:<input type="text" id="name"/></br>
+密码:<input type="password" id="pwd"/></br>
+&nbsp;&nbsp;&nbsp;&nbsp;<input type="button" value="提交" onclick="btnOnclick()"/></br>
 </body>
 </html>
