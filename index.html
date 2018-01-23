@@ -12,18 +12,31 @@
 </script>
 <body>
 <div class="container">
-<form>
-  <div class="form-group">
-    <label for="exampleInputEmail1">QQ</label>
-    <input type="email" class="form-control" id="exampleInputEmail1" placeholder="Email">
-  </div>
-  <div class="form-group">
-    <label for="exampleInputPassword1">password</label>
-    <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Password">
-  </div>
+  <ul class="nav nav-tabs" role=tablist">
+      <li class="active" <a href="#home" data-toggle="tab">firstpage</a><li>
+      <li  <a href="#page2" data-toggle="tab">2page</a><li>                                                                                      
+      <li  <a href="#page3" data-toggle="tab">3page</a><li>                                  
+      <li  <a href="#page4" data-toggle="tab">4page</a><li>    
+  <ul>
+  <div class="tab-content">
+       <div class="tab-pane" id="home">
+          <form>
+            <div class="form-group">
+                 <label for="exampleInputEmail1">QQ</label>
+                  <input type="email" class="form-control" id="exampleInputEmail1" placeholder="Email">
+             </div>
+             <div class="form-group">
+                  <label for="exampleInputPassword1">password</label>
+                  <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Password">
+             </div>
   
-  <button type="submit" class="btn btn-default">submit</button>
-</form>
+             <button type="submit" class="btn btn-default">submit</button>
+           </form>
+       </div>
+       <div class="tab-pane" id="page2">PAGE2</div>
+       <div class="tab-pane" id="page3">PAGE3</div>
+       <div class="tab-pane" id="page4">PAGE4</div>                               
+ </div>                        
 <div>
 </body>
 </html>
